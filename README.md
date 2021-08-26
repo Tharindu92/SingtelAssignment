@@ -152,7 +152,7 @@ public class Parrot extends Bird implements Fly {
     }
 }
 ```
-####A.4.1. A parrot living with dogs says: “Woof, woof”
+#### A.4.1. A parrot living with dogs says: “Woof, woof”
 ```java
 /**
  * Question A.4.1 when instantiating pass the instance of Dog to the constructor so the Parrot will sound like a dog
@@ -160,7 +160,7 @@ public class Parrot extends Bird implements Fly {
 Parrot parrot = new Parrot(new Dog());
 parrot.sing();
 ```
-####A.4.2. A parrot living with cats says: “ Me ow”
+#### A.4.2. A parrot living with cats says: “ Me ow”
 ```java
 /**
  * Question A.4.2 when instantiating pass the instance of Cat to the constructor so the Parrot will sound like a cat
@@ -168,7 +168,7 @@ parrot.sing();
 Parrot parrot = new Parrot(new Cat());
 parrot.sing();
 ```
-####A.4.3. A parrot living near the rooster says: “ Cock-a-doodle-doo ” 
+#### A.4.3. A parrot living near the rooster says: “ Cock-a-doodle-doo ” 
 ```java
 /**
  * Question A.4.3 when instantiating pass the instance of Rooster to the constructor so the Parrot will sound like a Rooster
@@ -176,7 +176,7 @@ parrot.sing();
 Parrot parrot = new Parrot(new Rooster());
 parrot.sing();
 ```
-####A.4.4. How do you keep the parrot maintainable?
+#### A.4.4. How do you keep the parrot maintainable?
 
 ```java
 /**
@@ -191,7 +191,7 @@ parrot.sing();
 ### (B) Model fish as well as other swimming animals
 
 ### Modeling Fish
-####B.1.1. Fish don’t sing
+#### B.1.1. Fish don’t sing
  ```java
 /**
  * Question B.1.1 Not implemented Sing interface
@@ -200,7 +200,7 @@ public class Fish extends Animal implements Swim {
 
 }
 ```
-####B.1.2. Fish don’t walk
+#### B.1.2. Fish don’t walk
 ```java
 /**
  * Question B.1.2 Not implemented Walk interface
@@ -209,7 +209,7 @@ public class Fish extends Animal implements Swim {
 
 }
 ```
-####B.1.3.Fish can swim
+#### B.1.3.Fish can swim
 ```java
 /**
  * Question B.1.3 Implemented Swim interface
@@ -219,7 +219,7 @@ public class Fish extends Animal implements Swim {
 }
 ```
 ### Specialize the fish as a Shark and as a Clownfish
-####B.2.1. Sharks are large and grey
+#### B.2.1. Sharks are large and grey
 ```java
 /**
  * Question B.2.1 - Add a private attribute for colour and size and set it to grey and large and no setters for that so cannot change
@@ -238,7 +238,7 @@ public class Shark extends Fish{
     }
 }
 ```
-####B.2.2. Clownfish are small and colourful (orange)
+#### B.2.2. Clownfish are small and colourful (orange)
 ```java
 /**
  * Question B.2.2 - Add a private attribute for colour and size and set it to orange and small and no setters for that so cannot change
@@ -257,7 +257,7 @@ public class Clownfish extends Fish{
     }
 }
 ```
-####B.2.3. Clownfish make jokes
+#### B.2.3. Clownfish make jokes
 ```java
 /**
  * Question B.2.3 - Add joke method into Clownfish class
@@ -276,7 +276,7 @@ public class Clownfish extends Fish{
     }
 }
 ```
-####B.2.4. Sharks eat other fish
+#### B.2.4. Sharks eat other fish
 ```java
 /**
  * Question B.2.4 - Add eat method into Shark class
@@ -297,7 +297,7 @@ public class Shark extends Fish{
 ```
 ### Modelling Dolphin
 
-####B.3.1.  Dolphin that swims without inheriting from a fish class
+#### B.3.1.  Dolphin that swims without inheriting from a fish class
 
 ```java
 /**
@@ -306,7 +306,7 @@ public class Shark extends Fish{
 public class Dolhpin extends Animal implements Swim {
 }
 ```
-####B.3.2. Avoid duplicating code or introducing unneeded overhead
+#### B.3.2. Avoid duplicating code or introducing unneeded overhead
 ```java
 /**
  * Question B.3.2 In Swim interface swim is a default method which is already implemented. So no need to reimplement swim method again
@@ -416,7 +416,7 @@ new Cat()
 };
 ```
 
-####D.1.1. How many of these animals can fly?
+#### D.1.1. How many of these animals can fly?
 ```java
 /**
  * Question D.1.1 Number of animals that can fly
@@ -434,7 +434,7 @@ public static int noOfAnimalsCanFly(Animal[] animals){
 }
     
 ```
-####D.1.2. How many of these animals can walk?
+#### D.1.2. How many of these animals can walk?
 ```java
 /**
  * Question D.1.2 Number of animals that can walk
@@ -451,7 +451,7 @@ public static int noOfAnimalsCanWalk(Animal[] animals){
     return countWalk;
 }
 ```
-####D.1.3. How many of these animals can sing?
+#### D.1.3. How many of these animals can sing?
 ```java
 /**
  * Question D.1.3 Number of animals that can sing
@@ -468,7 +468,7 @@ public static int noOfAnimalsCanSing(Animal[] animals){
     return countSing;
 }
 ```  
-####D.1.4. How many of these animals can swim?
+#### D.1.4. How many of these animals can swim?
 ```java
 /**
  * Question D.1.4 Number of animals that can swim
